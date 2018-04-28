@@ -1,5 +1,5 @@
 def my_each(collection)
-  index = 0
+  i = 0
   while index < collection.length
     yield(collection[i])
      i += 1
